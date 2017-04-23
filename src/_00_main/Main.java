@@ -1,6 +1,6 @@
 package _00_main;
 
-import _05_reusing_classes_20_final_methods.*;
+import _05_reusing_classes_21_final_methods.*;
 
 public class Main
 {
