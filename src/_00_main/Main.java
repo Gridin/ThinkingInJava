@@ -1,16 +1,12 @@
 package _00_main;
 
-import _05_reusing_classes_21_final_methods.*;
+import _05_reusing_classes_22_final_classes.*;
 
 public class Main
 {
     public static void main(String[] args) 
 	{
-		Frog frog = new Frog();
-		frog.swim();
-		frog.walk();
-		
-		Amphibian am = frog;
+		Amphibian am = new Amphibian();
 		am.walk();
 	}
 
