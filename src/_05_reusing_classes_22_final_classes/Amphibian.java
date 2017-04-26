@@ -1,7 +1,5 @@
 package _05_reusing_classes_22_final_classes;
 
-import java.util.logging.Logger;
-
 final public class Amphibian
 {
 
