@@ -1,13 +1,14 @@
 package _00_main;
 
-import _05_reusing_classes_22_final_classes.*;
+import _06_polymorphism_01_forgetting_the_object_type.*;
 
 public class Main
 {
     public static void main(String[] args) 
-	{
-		Amphibian am = new Amphibian();
-		am.walk();
-	}
-
+    {
+        Cycle[] cycles = new Cycle[] {new Unicycle(), new Bicycle(), new Tricycle()};
+        
+        for (int i = 0; i < cycles.length; i++)
+            cycles[i].ride();
+    }
 }
