@@ -1,6 +1,6 @@
 package _00_main;
 
-import _06_polymorphism_02_producing_the_right_behavior.*;
+import _06_polymorphism_04_producing_the_right_behavior.*;
 
 public class Main
 {
@@ -11,6 +11,6 @@ public class Main
             array[i] = ShapeGenerator.next();
 
         for (Shape s : array)
-            s.draw();
+            s.erase();
     }
 }
