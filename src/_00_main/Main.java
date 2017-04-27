@@ -1,14 +1,16 @@
 package _00_main;
 
-import _06_polymorphism_05_producing_the_right_behavior.*;
+import _06_polymorphism_08_extensibility.*;
 
 public class Main
 {
     public static void main(String[] args) 
     {
-        Cycle[] cycles = new Cycle[] {new Unicycle(), new Bicycle(), new Tricycle()};
+        Instrument[] instruments = new Instrument[10];
+        for (int i = 0; i < instruments.length; i++)
+            instruments[i] = Generator.next();
         
-        for (int i = 0; i < cycles.length; i++)
-            cycles[i].ride();
+        for(Instrument i : instruments)
+            System.out.println(i);
     }
 }
