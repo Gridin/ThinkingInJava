@@ -4,6 +4,6 @@ public class Rodent
 {
     @Override public String toString()
     {
-        return "Instrument";
+        return "Rodent";
     }
 }
