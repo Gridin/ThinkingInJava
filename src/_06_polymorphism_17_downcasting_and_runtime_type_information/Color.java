@@ -1,4 +1,4 @@
-package _06_polymorphism_16_designing_with_inheritance;
+package _06_polymorphism_17_downcasting_and_runtime_type_information;
 
 public class Color
 {

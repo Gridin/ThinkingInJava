@@ -1,17 +1,21 @@
 package _00_main;
 
-import _06_polymorphism_14_inheritance_and_cleanup.*;
+import _06_polymorphism_17_downcasting_and_runtime_type_information.*;
 
 public class Main
 {
     public static void main(String[] args) 
     {
-		Cheese cheese = new Cheese();
+        TrafficLight light = new TrafficLight();
+        System.out.println(light);
+        light.beep();
         
-		Mouse mouse = new Mouse(cheese);
-        Rodent rodent = new Rodent(cheese);
+        light.next();
+        System.out.println(light);
 
-		mouse.dispose();
-        rodent.dispose();
-	}
+        light.next();
+        System.out.println(light);
+        //light.beep();
+
+    }
 }
