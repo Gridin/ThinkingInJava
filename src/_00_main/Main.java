@@ -1,6 +1,6 @@
 package _00_main;
 
-import _07_interfaces_17_fields_in_interfaces.*;
+import _08_inner_classes_01_creating_inner_classes.*;
 
 public class Main
 {
