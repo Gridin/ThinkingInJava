@@ -4,6 +4,7 @@ public class MyMain
 {
     public static void myMain()
     {
-
+		Outer out = new Outer();
+		Outer.Inner in = out.getInner();
     }
 }
