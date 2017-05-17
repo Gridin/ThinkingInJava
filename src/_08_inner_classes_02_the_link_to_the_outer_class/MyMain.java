@@ -12,11 +12,17 @@ public class MyMain
         str.add("!");
         str.add("!");
 
+        System.out.println(str);
+       
         Selector selector = str.selector();
+        
         selector.select();
         while(selector.next())
             System.out.println(selector.current());
         
-        System.out.println(str);
+        selector.select();
+        while(selector.next())
+            System.out.println(selector.current());
+
     }
 }
