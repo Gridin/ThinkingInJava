@@ -1,6 +1,6 @@
 package _00_main;
 
-import _08_inner_classes_02_the_link_to_the_outer_class.*;
+import _08_inner_classes_04_using_this_and_new.*;
 
 public class Main
 {
