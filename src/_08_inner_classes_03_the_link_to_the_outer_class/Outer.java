@@ -1,7 +1,5 @@
 package _08_inner_classes_03_the_link_to_the_outer_class;
 
-import _08_inner_classes_01_creating_inner_classes.*;
-
 public class Outer
 {
 	private String name = "";
