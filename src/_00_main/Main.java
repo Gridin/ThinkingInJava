@@ -1,6 +1,6 @@
 package _00_main;
 
-import _08_inner_classes_11_inner_classes_in_methods_and_scopes.*;
+import _08_inner_classes_13_anonymous_inner_classes.*;
 
 public class Main
 {
