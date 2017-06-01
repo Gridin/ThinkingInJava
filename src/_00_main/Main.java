@@ -1,6 +1,6 @@
 package _00_main;
 
-import _08_inner_classes_13_anonymous_inner_classes.*;
+import _08_inner_classes_19_nested_classes.*;
 
 public class Main
 {
