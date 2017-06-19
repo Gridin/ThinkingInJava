@@ -1,6 +1,6 @@
 package _00_main;
 
-import _08_inner_classes_21_classes_inside_interfaces.*;
+import _09_holding_your_objects_07_list.*;
 
 public class Main
 {
